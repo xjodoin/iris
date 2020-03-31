@@ -56,7 +56,8 @@ setuptools.setup(
         'pyfcm==1.4.3',
         'oncallclient==1.0.0',
         'idna==2.7',
-        'pyqrcode==1.2.1'
+        'pyqrcode==1.2.1',
+        'gunicorn'
     ],
     extras_require={
         'kazoo': ['kazoo==2.6.1'],
